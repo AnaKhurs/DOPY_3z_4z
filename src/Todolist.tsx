@@ -35,8 +35,6 @@ export function Todolist(props: PropsType) {
         }
     }
 
-
-
     const onClickHandler = (value:FilterValuesType) => {
         props.changeFilter(value, props.id)
     }
